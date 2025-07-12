@@ -1,6 +1,7 @@
 # CRAG API
 
 Corrective RAG API with Azure OpenAI, Pinecone, and FastAPI.
+![img.png](img.png)
 
 ## Features
 - Retrieval-Augmented Generation (RAG) workflow
