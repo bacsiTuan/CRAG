@@ -1,6 +1,6 @@
 # CRAG API
 
-Corrective RAG API with Azure OpenAI, Pinecone, and FastAPI.
+Corrective RAG API with OpenAI, Tavily Search, Pinecone vector DB, and FastAPI.
 ![img.png](img.png)
 
 ## Features
