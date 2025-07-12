@@ -31,8 +31,8 @@ PINECONE_INDEX_NAME = "crag-index"
 
 # Initialize Pinecone
 pc = Pinecone()
-# if PINECONE_INDEX_NAME not in pc.list_indexes():
-#     pc.create_index(name=PINECONE_INDEX_NAME, spec={"serverless": {"cloud": "aws", "region": "us-east-1"}}, dimension=1536)
+if PINECONE_INDEX_NAME not in pc.list_indexes():
+    pc.create_index(name=PINECONE_INDEX_NAME, spec={"serverless": {"cloud": "aws", "region": "us-east-1"}}, dimension=1536)
 
 # Make urls global and mutable
 urls = [
